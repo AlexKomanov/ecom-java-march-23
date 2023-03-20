@@ -14,15 +14,18 @@ public class WhileLoop {
 
         int j = -2;
         while (j < 20) {
-            j++;
+
             if (j % 5 == 0) {
+                j++;
                 continue;
             }
-            System.out.println(j);
 
             if (j == 14) {
                 break;
             }
+            
+            System.out.println(j);
+            j++;
 
         }
     }
