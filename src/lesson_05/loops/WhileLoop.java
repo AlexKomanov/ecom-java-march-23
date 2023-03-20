@@ -23,7 +23,7 @@ public class WhileLoop {
             if (j == 14) {
                 break;
             }
-            
+
             System.out.println(j);
             j++;
 
