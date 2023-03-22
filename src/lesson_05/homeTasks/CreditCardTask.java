@@ -2,7 +2,7 @@ package lesson_05.homeTasks;
 
 import java.util.Scanner;
 
-public class CreditCardTasks {
+public class CreditCardTask {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
