@@ -24,10 +24,10 @@ public class CreditCardTask {
              * The problem is with the input.nextInt() method;
              * it only reads the int value. So when you continue reading with input.nextLine()
              * you receive the "\n" Enter key. So to skip this you have to add the input.nextLine().*/
-            scanner.nextLine();
+//            scanner.nextLine();
 
             System.out.println("What is your password?");
-            actualPassword = scanner.nextLine();
+            actualPassword = scanner.next();
 
             if (cardNumber == actualCardNumber && password.equalsIgnoreCase(actualPassword)) {
                 System.out.println("Welcome to the system!");

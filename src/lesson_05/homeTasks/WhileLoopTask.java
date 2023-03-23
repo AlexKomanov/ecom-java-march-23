@@ -27,6 +27,7 @@ public class WhileLoopTask {
             counter++;
         }
 
-        System.out.println("\nsummary = " + summary);
+        System.out.println();
+        System.out.println("\n\tsummary = " + summary);
     }
 }
